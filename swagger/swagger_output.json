@@ -1,0 +1,80 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Ecoloop-back",
+    "version": "1.0.0",
+    "description": "Ecoloops 2nd Stage: Full-Stack Engineer"
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/products": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "minPrice",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "maxPrice",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    },
+    "/checkout": {
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "cart": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Bad Request"
+          }
+        }
+      }
+    }
+  },
+  "swaggerDefinition": {
+    "openapi": "3.0.0",
+    "servers": [
+      {
+        "url": "http://localhost:3000"
+      }
+    ]
+  },
+  "apis": [
+    "./routes/routesV1.js"
+  ]
+}
