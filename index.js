@@ -15,6 +15,6 @@ const buildedRoutes = buildRoutes(app, currentRoutes);
 const buildSwagger = require('./middleware/buildSwagger');
 buildSwagger(app, port, buildedRoutes).then(() => {
   app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`URL: http://localhost:${port}`);
   });
 });
