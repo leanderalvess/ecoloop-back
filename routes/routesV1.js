@@ -12,6 +12,9 @@ const productsFile = fs.readFileSync(stockPath, 'utf-8');
 const productsData = JSON.parse(productsFile);
 
 module.exports = function currentRoute(app) {
+    app.get('/', (req, res) => {
+        return res.status(200).send('Ecoloop - Software Engineer Process')
+    });
 
     app.get('/products', validateRequest([
         query('minPrice').optional().isFloat({ min: 0 }),
