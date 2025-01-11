@@ -1,15 +1,85 @@
 [{
         "id": 1,
         "name": "T-shirt",
-        "price": 19.99,
+        "price": 60.99,
         "quantity": 100,
-        "image": "https://example.com/tshirt.jpg"
+        "image": "https://lojafarm.vteximg.com.br/arquivos/ids/3403293-708-1062/335256_49090_1-TSHIRT-BASICA-NA-SELVA.jpg?v=638575298072070000"
     },
     {
         "id": 2,
         "name": "Jeans",
-        "price": 49.99,
+        "price": 100.99,
         "quantity": 50,
-        "image": "https://example.com/jeans.jpg"
+        "image": "https://jockos.com.br/cdn/shop/files/EDITADA-612.jpg?v=1697576041&width=1431"
+    },
+    {
+        "id": 3,
+        "name": "Shorts",
+        "price": 69.99,
+        "quantity": 50,
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f98f51dc01d46e88cdaadd7004c9ecb_9366/Entrada_22_Shorts_Black_H57508_01_laydown.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Shoes",
+        "price": 140.00,
+        "quantity": 50,
+        "image": "https://images.tcdn.com.br/img/img_prod/1151932/mocassim_tei_masculino_em_couro_shoes_grand_tamanho_grande_109_1_e74856f9abbdbbc5dc77c430a6ff5f03.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sandals",
+        "price": 39.99,
+        "quantity": 50,
+        "image": "https://aus.spell.co/cdn/shop/files/Alexa-PlaitedLeatherSandals-Cream-4998.jpg?crop=center&height=1000&v=1736449832&width=1000"
+    },
+    {
+        "id": 6,
+        "name": "Jacket",
+        "price": 129.99,
+        "quantity": 35,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKNw7zbhxdPh1IYF2uarN1STv6prbW3RQGw&s"
+    },
+    {
+        "id": 7,
+        "name": "Sweater",
+        "price": 78.50,
+        "quantity": 150,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/ellie-delphine-wears-earrings-celine-sunglasses-a-beige-news-photo-1704822832.jpg?crop=0.872xw:0.581xh;0,0.156xh&resize=1120:*"
+    },
+    {
+        "id": 8,
+        "name": "Cap",
+        "price": 20.99,
+        "quantity": 320,
+        "image": "https://images.tcdn.com.br/img/img_prod/1201431/bone_56_057_baseball_cap_black_white_2617_1_091a24b05629ae7d34c14027a283c736.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Sunglasses",
+        "price": 59.99,
+        "quantity": 500,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Fi51kSFHmtoVnT6aqLA_m8pl7FahXVqwrQ&s"
+    },
+    {
+        "id": 10,
+        "name": "Watch",
+        "price": 199.99,
+        "quantity": 45,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuRMRqKcQwZ0z37dIpTgVeRNaC6JlcJrVFSg&s"
+    },
+    {
+        "id": 11,
+        "name": "Backpack",
+        "price": 49.99,
+        "quantity": 100,
+        "image": "https://www.thule.com/-/p/BqQQ3zv_GsS7myXOsY5vM26sDG7AlIzKP_qxV_zBNXA/rs:fit/h:991/cb:1.4/w:991/plain/approved/std.lang.all/25/72/1382572.png"
+    },
+    {
+        "id": 12,
+        "name": "Scarf",
+        "price": 24.99,
+        "quantity": 180,
+        "image": "https://media.victorinox.com/transform/1e4ef135-e0c0-4812-888c-ed005e045af8/TGE_611135_PO3-jpg"
     }
 ]
